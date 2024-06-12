@@ -1,0 +1,53 @@
+#menu{
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.botão{
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+}
+body{
+    background-size: cover;
+    background-image:  linear-gradient(rgb(212, 212, 212),rgb(255, 255, 255));
+}
+#pag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    justify-content: flex-end
+}
+h1{
+    font-size: 300%;
+}
+#nós{
+    padding-left: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.p1{
+    font-size: 130%;
+}
+#superfície{
+    display: flex;
+    flex-direction: row;
+}
+.sp{
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+}

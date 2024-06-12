@@ -1,0 +1,37 @@
+body {
+    background-image: url(sala.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;
+}
+#menu{
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.botão{
+    width: 700px;
+    height: 30px;
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+}   
+.tinta{
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+#tintas{
+    display: flex;
+    justify-content: center;
+}
+#fim{
+    display: flex;
+    justify-content: center;
+}

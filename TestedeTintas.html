@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TestedeTintas.css">
+</head>
+<body>
+    <div id="menu">
+        <a href="LojadeTintas.html"><button class="botão">Empresa</button> </a>
+        <a href="TestedeTintas.html"><button class="botão">Teste de tintas para paredes</button></a>
+    </div> <br>
+    <div id="tintas">
+    <button class="tinta" onclick="bt()">Rosa</button>
+    <button class="tinta" onclick="bt2()">Verde</button>
+    <button class="tinta" onclick="bt3()">Laranja</button>
+    <button class="tinta" onclick="bt4()">Marrom</button>
+    <button class="tinta" onclick="bt5()">Vermelho</button>
+    <button class="tinta" onclick="bt6()">Azul</button>
+    <button class="tinta" onclick="bt7()">Cinza</button>
+
+    </div>
+    <script>
+        function bt() {
+            document.querySelector("body").style.backgroundColor="rgb(194, 97, 191)"
+        }
+        function bt2() {
+            document.querySelector("body").style.backgroundColor="rgb(113, 217, 130)"
+        }
+        function bt3() {
+            document.querySelector("body").style.backgroundColor="rgb(224, 103, 47)"
+        }
+        function bt4() {
+            document.querySelector("body").style.backgroundColor="rgb(110, 63, 42)"
+        }
+        function bt5() {
+            document.querySelector("body").style.backgroundColor="rgb(168, 34, 27)"
+        }
+        function bt6() {
+            document.querySelector("body").style.backgroundColor="rgb(32, 47, 140)"
+        }
+        function bt7() {
+            document.querySelector("body").style.backgroundColor="rgb(171, 171, 171)"
+        }
+    </script>
+    <div id="fim"> <footer>Lethycia e H. Vitória</footer> </div>
+
+</body>
+</html>
