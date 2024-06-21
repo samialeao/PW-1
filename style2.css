@@ -5,7 +5,6 @@ body {
     background-color: beige;
 }
 #menu{
-    background-color: rgb(175, 175, 175);
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -22,8 +21,8 @@ body {
     border-radius: 10px;
 }   
 .tinta{
-    width: 70px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
 }
